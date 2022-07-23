@@ -91,3 +91,12 @@
     transform: translateY(0px);
     opacity: 1;
   }
+
+  .link-color {
+    color: #EE6C4D;
+  }
+
+.link-color:hover {
+    color: #C56C55;
+    text-decoration: none;
+  }
