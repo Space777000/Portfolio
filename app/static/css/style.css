@@ -52,6 +52,7 @@
   
   .overlay {
     position: absolute;
+    right: 0;
   }
   
   .title {
