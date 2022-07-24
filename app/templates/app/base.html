@@ -8,11 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"  />
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
     <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <title>Portfolio</title>
 </head>
@@ -20,17 +19,17 @@
     <nav class="navbar  navber-expand-lg">
         <div class="container">
             <a href="" class="navbar-brand">
-                <img src="{% static 'img/logo.png' %}" alt="" width="80" height="80">
+                <img src="{% static 'img/logo.png' %}" alt="" width="110" height="110">
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item mr-3">
-                    <a href="/" class="nav-link nav-color">HOME&nbsp;</a>
+                    <a href="/" class="nav-link nav-color">HOME</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a href="/" class="nav-link nav-color">ABOUT&nbsp;</a>
+                    <a href="{% url 'about' %}" class="nav-link nav-color">ABOUT</a>
                 </li>     
                 <li class="nav-item">
-                    <a href="/" class="nav-link nav-color">CONTACT&nbsp;</a>
+                    <a href="{% url 'contact' %}" class="nav-link nav-color">CONTACT</a>
                 </li>   
             </ul>
         </div>
